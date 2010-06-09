@@ -1,0 +1,32 @@
+grammar Measurement
+  rule measurement
+    part
+    / 
+    part ' or ' part
+  end
+
+  rule part
+    n:[0-9]+ unit blah:unit {
+      def value
+        (unit == '') ? n.to_i : n.to_i.send(unit)
+      end
+    } /
+    fraction unit blah:unit {
+      def value
+        fraction.value.send(unit)
+      end
+    }
+  end
+
+  rule fraction
+    a:[1-9] '/' b:[1-9] {
+      def value
+        a.to_f / b.to_f
+      end
+    }
+  end
+
+  rule unit
+    ' '? [a-zA-Z]*
+  end
+end
