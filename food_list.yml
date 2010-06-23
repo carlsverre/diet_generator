@@ -1,7 +1,6 @@
 grains/starches:
   any:
     cheerios: 1/2 cup
-    corn flakes: 1/2 cup
     corn or rice pasta, cooked: 1/2 cup
     corn tortillas: 2
     crackers (rice, corn, or rye): 14
@@ -48,7 +47,6 @@ vegetables:
     carrots: 1 or 1/2 cup baby
     cauliflower: 1 cup
     celery: 4 medium stalks
-    cherry tomatoes: 8 or about 1 cup
     corn: 1/2 cup
     cucumber: 1 cup
     eggplant: 1 cup
@@ -59,19 +57,16 @@ vegetables:
     radishes: 10 small
     spinach, cooked: 1/2 cup
     spinach, raw: 2 cups
-    tomato: 1 medium or 1/2 cup
     water chestnuts: 3/4 cup
     pickle: 1 large
 fats:
   any:
     nuts, any type: 1/2 ounce or 2 tablespoons
     oil, any type: 1 teaspoon
-    olives: 9 large
     peanut butter: 1 1/2 tablespoons
     seeds, sesame or sunflower: 1 tablespoon
     margarine: 1 teaspoon
     mayonnaise: 1 tablespoon
-    tartar sauce: 1 tablespoon
     non-dairy topping: 1/2 cup
 meats/milk:
   any:
@@ -80,27 +75,15 @@ meats/milk:
     cheese, cottage, lactose-free: 1/2 cup
     egg whites: 4
     egg, whole: 1
-  lunch:
-    beef, lean:  1 1/2 ounces
-    chicken: 2 1/2 ounces
-    clams: 1/2 cup
-    cod: 3 ounces
-    crab: 3 ounces
-    duck breast: 3 ounces
-    fish: 3 ounces
-    halibut: 3 ounces
-    lamb, lean-cuts: 2 ounces
+  breakfast:
     milk, lactose-free: 1 cup
-    pheasant: 3 ounces
-    pork, lean-cuts: 2 ounces
-    salmon: 3 ounces
+  lunch:
+    milk, lactose-free: 1 cup
     shrimp: 3 ounces
-    talapia: 3 ounces
     tuna: 3 ounces or 1/2 cup
     turkey: 3 ounces
     venison: 3 ounces
   dinner:
-    beef, lean:  1 1/2 ounces
     chicken: 2 1/2 ounces
     clams: 1/2 cup
     cod: 3 ounces

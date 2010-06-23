@@ -19,7 +19,7 @@ def generate_day day_index
     day = days[day_index]
     day.each do |food_category|
       cat = FOOD_LIST[food_category]
-      items = cat["any"]
+      items = cat["any"].dup
       items.update(cat[meal]) if cat.include? meal
       item = items.keys.choice
       ingredients[meal] = [] unless ingredients.include? meal
